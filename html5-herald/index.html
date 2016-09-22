@@ -14,17 +14,62 @@
 
 <body>
   <header>
-    <nav></nav>
+    <hgroup>
+      <h1>The HTML5 Herald</h1>
+      <h2>Produced With That Good Ol’ Timey HTML5 &amp; CSS3</h2>
+    </hgroup>
+    <nav>
+      ⋮
+    </nav>
+    <p id="issue"><time datetime="1904-06-04" pubdate>June 4, 1904</time></p>
   </header>
   <div id="main">
     <div id="primary">
-      <article></article>
-      ⋮
+      <article>
+        <hgroup>
+          <h1>WAI-ARIA</h1>
+          <h2>Web App Accessibility</h2>
+        </hgroup>
+        <p>Lorem ipsum dolor ... </p>
+        <p>As you can see in <a href="#fig1">Figure 1</a></p>
+        <figure id="fig1">
+          <figcaption>Screen Reader Support for WAI-ARIA</figcaption>
+          <img src="http://www.snopes.com/wp-content/uploads/2015/09/another-teal-owl.jpg" alt="JAWS: Landmarks 1/1, Forms 4/5 ... ">
+        </figure>
+        <p>Lorem ipsum dolor ... </p>
+      </article>
+      <article class="">
+         <h1>Yes, You Can Use <mark>HTML5</mark> Today!</h1>
+      </article>
+      <article class="">
+        <h1>Your Task is in Progress</h1>
+        <p>Status: <progress min="0" max="100" value="30"><span>30</span>% </progress></p>
+        <p>Total current disk usage: <meter value="3" min="0" max="320" low="10" high="300" title="gigabytes">63 GB</meter>
+        <p>We’ll be getting together for our next developer conference on <time datetime="2011-10-12">12 October of this year</time>.</p>
+        <time datetime="2011-10-12T16:24:34.014Z">12 October of this year. </time> <!-- nothig special added -->
+        <details>
+          <summary>Some Magazines of Note</summary>
+          <ul>
+            <li><cite>Bird Watchers Digest</cite></li>
+            <li><cite>Rowers Weekly</cite></li>
+            <li><cite>Fishing Monthly</cite></li>
+          </ul>
+        </details>
+      </article>
+
     </div>
     <div id="secondary">
-      <article></article>
-      ⋮
-    </div>
+      <h1>Page Title</h1>
+      <article>
+        <!-- Works different in Chrome and Firefox -->
+        <style scoped>
+          h1 { color: blue; }
+        </style>
+        <h1>Article Title</h1>
+        <p>Article content.</p>
+      </article>
+    ⋮
+  </div>
     <div id="tertiary">
       <aside> <article></article> ⋮
       </aside>
