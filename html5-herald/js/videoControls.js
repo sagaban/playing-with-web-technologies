@@ -11,7 +11,7 @@ $(document).ready(function() {
   // Check to see if the video is already ready (if it's cached, for example)
   if (videoEl.readyState == 4) {
     videoEl.removeAttribute("controls");
-    vidControls.`removeClass`("hidden");
+    vidControls.removeClass("hidden");
   }
 
   videoEl.addEventListener('canplay', function () {

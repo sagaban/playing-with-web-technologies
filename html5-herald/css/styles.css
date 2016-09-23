@@ -9,7 +9,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, figure, footer, header, 
+article, aside, figure, footer, header,
 hgroup, menu, nav, section,
 time, mark, audio, video, a {
   margin:0;
@@ -37,7 +37,7 @@ del { text-decoration: line-through; }
 abbr[title], dfn[title] { border-bottom:1px dotted #000; cursor:help; }
 table { border-collapse:collapse; border-spacing:0;  font-size:inherit; font:100%;}
 input, select { vertical-align:middle;  font:99% sans-serif; color: #282828;}
-pre, code, kbd, samp { font-family: monospace, sans-serif; }/ 
+pre, code, kbd, samp { font-family: monospace, sans-serif; }/
 h1,h2,h3,h4,h5,h6 { font-weight: bold; text-rendering: optimizeLegibility; }
 html { -webkit-font-smoothing: antialiased; }
 
@@ -57,8 +57,8 @@ input[type="checkbox"] { vertical-align: bottom; *vertical-align: baseline; }
 .ie6 input { vertical-align: text-bottom; }
 label, input[type=button], input[type=submit], button { cursor: pointer; }
 ::-moz-selection{ background: #484848; color:#fff; text-shadow: none; }
-::selection { background:#484848; color:#fff; text-shadow: none; } 
-a:link { -webkit-tap-highlight-color: #ccc; } 
+::selection { background:#484848; color:#fff; text-shadow: none; }
+a:link { -webkit-tap-highlight-color: #ccc; }
 html { overflow-y: scroll; }
 button {  width: auto; overflow: visible; }
 .ie7 img { -ms-interpolation-mode: bicubic; }
@@ -89,7 +89,7 @@ button {  width: auto; overflow: visible; }
 }
 
 html {
-  background: transparent url(../images/bg-main.gif) repeat 0 0;	
+  background: transparent url(../images/bg-main.gif) repeat 0 0;
   height: 100%;
 }
 
@@ -121,7 +121,7 @@ h2 {
 article h2 {
   background-image: url(../images/bg-header.gif);
 }
-body > header h2 { 
+body > header h2 {
   text-transform: lowercase;
   background-image: none;
   font-size: 16px;
@@ -199,7 +199,7 @@ nav ul {
   white-space: nowrap;
   text-align: center;
   width: 10.2em;
-  
+
 }
 
 nav ul li {
@@ -207,7 +207,7 @@ nav ul li {
   float: left;
 }
 
-nav ul li a{ 
+nav ul li a{
   color: #484848;
   text-transform: uppercase;
   font-size: 13px;
@@ -217,7 +217,7 @@ nav ul li a{
 }
 
 nav ul li a:hover, nav ul li a:active {
-  text-decoration: underline;	
+  text-decoration: underline;
 }
 
 #main {
@@ -231,13 +231,13 @@ nav ul li a:hover, nav ul li a:active {
 }
 #main > div:first-of-type, /* both selectors target the same element */
 #primary   {
-  width: 375px;	
+  width: 375px;
   padding-right: 4px;
 }
 
 #main > div:nth-of-type(2), /* both selectors target the same element */
 #secondary {
-  width: 130px;	
+  width: 130px;
 }
 
 #secondary {
@@ -261,7 +261,7 @@ aside {
   -moz-column-gap: 10px;
   column-count: 3;
   column-width: 9em;
-  column-gap: 10px; 
+  column-gap: 10px;
 
 }
 
@@ -275,7 +275,7 @@ aside {
   margin-bottom: 12px;
 }
 
-#video, 
+#video,
 #primary article h1 {
   -webkit-column-span: all;
   -moz-column-span: all;
@@ -289,11 +289,11 @@ aside {
 	position:absolute;
 	top:0px;
 	left:0px;
-	/* to avoid seeing the video in color for a second before the JavaScript runs 
+	/* to avoid seeing the video in color for a second before the JavaScript runs
 	 * show a black background instead*/
 	background-color: black;
 	margin-bottom:25px;
-	
+
 }
 
 #secondary article{
@@ -366,52 +366,52 @@ aside article {
 #ad2 {
   height: 170px;
   background-image:
-    url(../images/bg-bike.png), 
+    url(../images/bg-bike.png),
     url(../images/gradient.svg);
   /* Mozilla gradient syntax */
   background-image:
     url(../images/bg-bike.png),
     -moz-linear-gradient(0% 0% 270deg,
-    rgba(0,0,0,0.4) 0, 
+    rgba(0,0,0,0.4) 0,
     rgba(0,0,0,0) 37%,
-    rgba(0,0,0,0) 83%, 
-    rgba(0,0,0,0.06) 92%, 
+    rgba(0,0,0,0) 83%,
+    rgba(0,0,0,0.06) 92%,
     rgba(0,0,0,0) 98%);
   /* W3C gradient syntax for WebKit */
   background-image:
     url(../images/bg-bike.png),
     -webkit-linear-gradient(top,
-    rgba(0,0,0,0.4) 0, 
+    rgba(0,0,0,0.4) 0,
     rgba(0,0,0,0) 37%,
-    rgba(0,0,0,0) 83%, 
-    rgba(0,0,0,0.06) 92%, 
+    rgba(0,0,0,0) 83%,
+    rgba(0,0,0,0.06) 92%,
     rgba(0,0,0,0) 98%);
   /* W3C gradient syntax for Opera */
   background-image:
     url(../images/bg-bike.png),
     -o-linear-gradient(top,
-    rgba(0,0,0,0.4) 0, 
+    rgba(0,0,0,0.4) 0,
     rgba(0,0,0,0) 37%,
-    rgba(0,0,0,0) 83%, 
-    rgba(0,0,0,0.06) 92%, 
+    rgba(0,0,0,0) 83%,
+    rgba(0,0,0,0.06) 92%,
     rgba(0,0,0,0) 98%);
-  /* Unprefixed W3C syntax */ 
+  /* Unprefixed W3C syntax */
   background-image:
     url(../images/bg-bike.png),
     linear-gradient(top,
-    rgba(0,0,0,0.4) 0, 
+    rgba(0,0,0,0.4) 0,
     rgba(0,0,0,0) 37%,
-    rgba(0,0,0,0) 83%, 
-    rgba(0,0,0,0.06) 92%, 
+    rgba(0,0,0,0) 83%,
+    rgba(0,0,0,0.06) 92%,
     rgba(0,0,0,0) 98%);
   /* Old WebKit syntax */
   background-image:
-    url(../images/bg-bike.png), 
-    -webkit-gradient(linear, 
-    from(rgba(0,0,0,0.4)), 
+    url(../images/bg-bike.png),
+    -webkit-gradient(linear,
+    from(rgba(0,0,0,0.4)),
     color-stop(37%, rgba(0,0,0,0)),
-    color-stop(83%, rgba(0,0,0,0)), 
-    color-stop(92%, rgba(0,0,0,0.16)), 
+    color-stop(83%, rgba(0,0,0,0)),
+    color-stop(92%, rgba(0,0,0,0.16)),
     color-stop(98%, rgba(0,0,0,0)));
 
   background-position: 50% 88%, 0 0;
@@ -429,7 +429,7 @@ aside article {
   font-family: LeagueGothic, Arial Narrow, Helvetica, sans-serif;
   font-size: 42px;
   letter-spacing:-1px;
-  margin: 20px 5px;    
+  margin: 20px 5px;
   text-shadow: #fff 1px 1px;
 }
 
@@ -462,6 +462,7 @@ aside > article:nth-of-type(3),
 
 #ad1 h1:first-letter {
   letter-spacing: -0.1em;
+  /*font-size: 2em;*/
 }
 
 #ad1 p {
@@ -493,14 +494,14 @@ aside p + a { display: block; text-decoration: none; border: 5px double; color: 
 #ad1 a.wanted:hover {
   -webkit-box-shadow: 4px 10px #484848;
   -moz-box-shadow: 4px 10px #484848;
-  box-shadow: 4px 10px #484848;  
+  box-shadow: 4px 10px #484848;
   top: -5px;
   left: -2px;
 }
 
 #ad3 h1 {
   font-size: 20px;
-  font-family: AcknowledgementMedium;	
+  font-family: AcknowledgementMedium;
   padding: 0 30px 0 75px;
   line-height:1;
   color: #999;
@@ -517,7 +518,7 @@ aside p + a { display: block; text-decoration: none; border: 5px double; color: 
   transition: color 0.2s ease-out, transform 0.2s ease-out;
 }
 
-.holding {	
+.holding {
   /* Firefox */
   -moz-transition: all 0.3s ease;
   /* WebKit */
@@ -530,15 +531,16 @@ aside p + a { display: block; text-decoration: none; border: 5px double; color: 
 
 #ad3 h1:hover span {
   color: #484848;
-  -webkit-transform:rotate(10deg) translateX(40px) scale(1.5); 
-  -moz-transform:rotate(10deg) translateX(40px) scale(1.5); 
-  -ms-transform:rotate(10deg) translateX(40px) scale(1.5); 
-  -o-transform:rotate(10deg) translateX(40px) scale(1.5); 
-  transform:rotate(10deg) translateX(40px) scale(1.5);
+  -webkit-transform:rotate(10deg) translateX(-40px) scale(1.5);
+  -moz-transform:rotate(10deg) translateX(-40px) scale(1.5);
+  -ms-transform:rotate(10deg) translateX(-40px) scale(1.5);
+  -o-transform:rotate(10deg) translateX(-40px) scale(1.5);
+  transform:rotate(10deg) translateX(-40px) scale(1.5);
+  /*-webkit-transform: translate(-20px,-20px);  -moz-transform: translate(-20px,-20px);  -ms-transform: translate(-20px,-20px);  -o-transform: translate(-20px,-20px);  transform: translate(-20px,-20px);*/
 }
 
 #ad3 p {
-  padding: 5px 3px 0 75px;	
+  padding: 5px 3px 0 75px;
   font-size: 0.85em;
 }
 
@@ -548,9 +550,9 @@ aside p + a { display: block; text-decoration: none; border: 5px double; color: 
 
 #ad4 h1 {
   font-size: 20px;
-  font-family: AcknowledgementMedium;	
+  font-family: AcknowledgementMedium;
   text-align:center;
-}	
+}
 
 #ad4 {
   height:140px;
@@ -567,15 +569,15 @@ aside p + a { display: block; text-decoration: none; border: 5px double; color: 
   top:8px;
   left:55px;
 }
-	
-	
+
+
 /* Forms */
 form {
   border: solid 2px #888;
   border-width: 2px 0;
   clear: both;
-  -moz-box-shadow: 
-    inset 1px 1px 84px rgba(0,0,0,0.24), 
+  -moz-box-shadow:
+    inset 1px 1px 84px rgba(0,0,0,0.24),
     inset -1px -1px 84px rgba(0,0,0,0.24);
   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#cacaca', endColorstr='#b1b1b1'); /* IE6,IE7 */
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#cacaca', endColorstr='#b1b1b1')"; /* IE8+ */
@@ -619,7 +621,7 @@ form p {
 }
 input[type=text], input[type=email], input[type=password], input[type=url], textarea {
   background-color: transparent;
-  border: dotted #484848;	
+  border: dotted #484848;
   border-width: 0 0 1px 0;
   display:block;
   margin: 10px auto 10px;
@@ -643,13 +645,13 @@ input:not([type=range]):not([type=date]):not([type=submit]):not([type=button]):n
 }
 
 input:not([type=range]):not([type=date]):not([type=submit]):not([type=button]):not([type=checkbox]):not([type=number]):required {
-  background-image: url('../images/required.png'); 
+  background-image: url('../images/required.png');
 }
 
-input:not([type=range]):not([type=date]):not([type=submit]):not([type=button]):not([type=checkbox]):not([type=number]):focus:invalid { 
+input:not([type=range]):not([type=date]):not([type=submit]):not([type=button]):not([type=checkbox]):not([type=number]):focus:invalid {
   background-image: url('../images/invalid.png');
-} 
-input:not([type=range]):not([type=date]):not([type=submit]):not([type=button]):not([type=checkbox]):not([type=number]):focus:valid { 
+}
+input:not([type=range]):not([type=date]):not([type=submit]):not([type=button]):not([type=checkbox]):not([type=number]):focus:valid {
   background-image: url('../images/valid.png');
 }
 
@@ -673,16 +675,16 @@ input[type=submit], input[type=button] {
   /* SVG for IE9 and Opera */
   background-image: url(../images/button-gradient.svg);
   /* Old WebKit */
-  background-image: -webkit-gradient(radial, 30% 120%, 0, 30% 120%, 100, 
-    color-stop(0,rgba(144,144,144,1)), 
+  background-image: -webkit-gradient(radial, 30% 120%, 0, 30% 120%, 100,
+    color-stop(0,rgba(144,144,144,1)),
     color-stop(1,rgba(72,72,72,1)));
   /* W3C for Mozilla */
-  background-image: -moz-radial-gradient(30% 120%, circle, 
-    rgba(144,144,144,1) 0%, 
+  background-image: -moz-radial-gradient(30% 120%, circle,
+    rgba(144,144,144,1) 0%,
     rgba(72,72,72,1) 50%);
   /* W3C for new WebKit */
-  background-image: -webkit-radial-gradient(30% 120%, circle, 
-    rgba(144,144,144,1) 0%, 
+  background-image: -webkit-radial-gradient(30% 120%, circle,
+    rgba(144,144,144,1) 0%,
     rgba(72,72,72,1) 50%);
   /* W3C unprefixed */
   background-image: radial-gradient(30% 120%, circle,
@@ -697,7 +699,7 @@ input[type=submit], input[type=button] {
   opacity: 0.8;
   -webkit-transition: opacity .25s linear;
   -moz-transition: opacity .25s linear;
- 
+
 }
 
 
@@ -713,8 +715,8 @@ form h1 {
   font-family: AcknowledgementMedium;
   text-align:center;
   white-space:nowrap;
-  background: 
-    url(../images/bg-formtitle-left.png) left 13px no-repeat, 
+  background:
+    url(../images/bg-formtitle-left.png) left 13px no-repeat,
     url(../images/bg-formtitle-right.png) right 13px no-repeat;
 }
 form h2 {
@@ -750,7 +752,7 @@ body > footer p:last-of-type{
 
 body > footer section {
   float: left;
-  
+
 }
 
 body > footer h1 {
@@ -783,7 +785,7 @@ body > footer h1 {
 @media print {
   * { background: transparent !important; color: #484848 !important; text-shadow: none; }
   a, a:visited { color: #484848 !important; text-decoration: underline; }
-  a:after { content: " (" attr(href) ")"; } 
+  a:after { content: " (" attr(href) ")"; }
   abbr:after { content: " (" attr(title) ")"; }
   .ir a:after { content: ""; }  /* Don't show links for images */
   pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
