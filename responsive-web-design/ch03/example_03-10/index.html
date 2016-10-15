@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <title>Responsive images</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <img src="scones_small.jpg" srcset="scones_medium.jpg 1.5x, scones_
+  large.jpg 2x" alt="Scones taste amazing">
+
+  <img srcset="scones_small.jpg 450w, scones_medium.jpg 900w"
+  sizes="(min-width: 17em) 100vw, (min-width: 40em) 50vw" src="scones_
+  small.jpg" alt="Scones">
+
+  <picture>
+    <source type="image/webp" srcset="scones.webp">
+    <img src="scones_large.jpg" alt="Again, you WILL eat cake.">
+  </picture>
+</body>
+</html>

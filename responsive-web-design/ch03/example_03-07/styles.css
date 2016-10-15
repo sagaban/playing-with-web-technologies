@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  color: #ebebeb;
+}
+
+.FlexWrapper {
+  background-color: indigo;
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  width: 100%;
+  /*align-items: center;*/
+}
+
+.FlexItems {
+  border: 1px solid #ebebeb;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: #34005B;
+  display: flex-box;
+  height: 100px;
+  min-width: 200px;
+  /*align-self: stretch*/
+  /*flex: 0 0 300px;*/
+  /*flex: 1 0 200px;*/
+}
+.AlignSelf {
+  align-self: flex-end;
+}
+
+.FlexOne {
+  flex: 1.5 0 auto;
+}
+
+.FlexTwo,
+.FlexThree {
+  flex: 1 0 auto;
+}
